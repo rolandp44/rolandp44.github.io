@@ -13,7 +13,6 @@
             line-height: 1.6;
         }
 
-        /* Navigation */
         nav {
             background-color: #1f2933;
             padding: 15px 30px;
@@ -37,7 +36,6 @@
             text-decoration: underline;
         }
 
-        /* Main container */
         .container {
             max-width: 900px;
             margin: 40px auto;
@@ -47,8 +45,9 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
-        h1, h2 {
+        h1, h2, h3 {
             text-align: center;
+            margin-top: 0;
         }
 
         h2 {
@@ -61,34 +60,22 @@
             margin-top: 15px;
         }
 
-        /* Feature sections */
         .feature {
             margin-top: 30px;
         }
 
-        /* Image layout */
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 20px;
-            margin-top: 25px;
-        }
-
-        .gallery img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-            display: block;
-        }
-
-        /* Highlight box */
         .highlight {
             background-color: #f1f5f9;
             padding: 20px;
             border-left: 5px solid #1f2933;
             border-radius: 4px;
             margin-top: 40px;
+        }
+
+        /* Make heading in highlight smaller than h2 above */
+        .highlight h3 {
+            margin-top: 0;
+            text-align: center;
         }
     </style>
 </head>
@@ -109,40 +96,33 @@
         <div class="feature">
             <h2>Working Out</h2>
             <p>
-                Working out is more than just physical training for me — it’s a way to build discipline and mental strength.
-                Whether I’m lifting weights or pushing myself through a tough workout, I see it as a way to improve not just
-                my body, but my mindset.
+                Working out is more than just physical training — it’s a way to build discipline and mental strength.
+                Whether lifting weights or doing cardio, consistent effort improves both body and mindset.
             </p>
             <p>
-                Fitness has taught me consistency. Progress doesn’t happen overnight, and learning to trust the process
-                has helped me in school, sports, and life. Every workout is a reminder that effort compounds over time.
+                Fitness teaches patience and perseverance. Progress requires time, focus, and trust in the process,
+                which strengthens determination and resilience in other areas of life.
             </p>
         </div>
 
         <div class="feature">
             <h2>Video Games</h2>
             <p>
-                Video games are one of my favorite ways to relax and connect with friends. Games like
-                <strong>ARK: Survival Evolved</strong> and <strong>ARC Raiders</strong> stand out to me because they reward
-                teamwork, strategy, and creativity.
+                Video games like <strong>ARK: Survival Evolved</strong> and <strong>ARC Raiders</strong> are engaging
+                ways to practice strategy, problem-solving, and teamwork.
             </p>
             <p>
-                In ARK, I enjoy the survival aspect — gathering resources, building bases, and working together to overcome
-                challenges. ARC Raiders takes a more tactical approach, encouraging communication and coordination in
-                high-pressure situations.
-            </p>
-            <p>
-                These games aren’t just entertainment; they sharpen problem-solving skills and reinforce the importance
-                of collaboration, leadership, and adaptability.
+                They challenge players to coordinate, adapt to changing situations, and approach problems creatively.
+                These skills translate to collaboration and leadership in real-life settings.
             </p>
         </div>
 
         <div class="highlight">
-            <h2>Why These Matter to Me</h2>
+            <h3>Why These Matter</h3>
             <p>
-                Whether I’m working out or gaming, both activities push me to grow in different ways.
-                One builds discipline and resilience, while the other encourages creativity and teamwork.
-                Together, they balance my life and help shape who I am.
+                Whether training physically or gaming strategically, both activities encourage growth in discipline,
+                resilience, and collaboration. Pursuing these interests strengthens focus, builds perseverance, and
+                reinforces the values that guide daily decisions.
             </p>
         </div>
     </div>
